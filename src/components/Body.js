@@ -75,8 +75,7 @@ export const Body = () => {
             });
           }}
         >
-          Convert in
-          {appState?.unitTemp === 'C' ? 'Fahrenheit' : 'Celsius'}
+          Convert to {appState?.unitTemp === 'C' ? 'Fahrenheit' : 'Celsius'}
         </button>
       </div>
     </div>
